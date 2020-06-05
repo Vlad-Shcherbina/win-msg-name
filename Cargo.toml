@@ -1,0 +1,18 @@
+[package]
+name = "win-msg-name"
+version = "0.1.0"
+authors = ["Vlad Shcherbina <vlad.shcherbina@gmail.com>"]
+edition = "2018"
+description = "Get Windows message name from a message ID, e.g. 0x000f -> 'WM_PAINT'"
+categories = [
+    "development-tools::debugging",
+    "os::windows-apis",
+    "value-formatting",
+]
+repository = "https://github.com/Vlad-Shcherbina/win-msg-name"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
